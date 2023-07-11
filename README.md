@@ -1,5 +1,4 @@
-# captone_workout_manager
-
+# Workout Manager
 
 Workout Manager is a web application that allows users to create, record, and view their daily workout records. It provides a simple and powerful tool to track workouts and monitor progress.
 
@@ -28,6 +27,7 @@ Workout Manager utilizes the following technologies, libraries, and frameworks:
 - Spring Boot: A Java framework used for building robust and scalable web applications.
 - MariaDB: An open-source relational database management system used for storing and managing the workout records.
 - Bootstrap: A popular CSS framework that provides pre-styled components and responsive design for a visually appealing user interface.
+- Logo Image: The logo image used in Workout Manager was sourced from [Flaticon](https://www.flaticon.com/free-icons/gym/2). 
 
 We would like to acknowledge the contributions of the following individuals and resources:
 
