@@ -29,9 +29,5 @@ Workout Manager utilizes the following technologies, libraries, and frameworks:
 - Bootstrap: A popular CSS framework that provides pre-styled components and responsive design for a visually appealing user interface.
 - Logo Image: The logo image used in Workout Manager was sourced from [Flaticon](https://www.flaticon.com/free-icons/gym/2). 
 
-We would like to acknowledge the contributions of the following individuals and resources:
 
-- [List of contributors or team members]: Thank you to all the contributors who helped develop and improve Workout Manager.
-- [Source of inspiration]: [Mention any sources of inspiration or related projects that influenced the development of Workout Manager]
-- [Additional libraries or resources]: [If there are any additional libraries, frameworks, or resources that were used, mention them here]
 
