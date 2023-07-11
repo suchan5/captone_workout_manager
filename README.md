@@ -6,7 +6,7 @@ Workout Manager is a web application that allows users to create, record, and vi
 
 The purpose of Workout Manager is to help users maintain a log of their workouts in a convenient and organized manner. The key features of the application include:
 
-- Record Creation: Users can log their workout details by selecting the date from a date picker, choosing the workout type from a dropdown menu (e.g., bench press, shoulder press), and inputting the number of sets, weight in kilograms, and repetitions performed.
+- Record Creation: Users can log their workout details by selecting the date from a date picker, choosing the workout type from a dropdown menu (e.g. bench press, shoulder press), and inputting the number of sets, weight in kilograms, and repetitions performed.
 - Record Viewing: Users can easily view their workout records for a specific date by selecting the desired date. This allows them to track their progress over time and analyze their workout patterns.
 - Simplicity and User-Friendliness: The application is designed to be intuitive and user-friendly, allowing users to quickly record their workouts without any unnecessary complexity.
 
