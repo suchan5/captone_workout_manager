@@ -27,9 +27,9 @@ Workout Manager aims to provide a streamlined and efficient solution for individ
 - **Step 4**: Move the `capstone_database.sql` file into the MariaDB `bin` folder.
 - **Step 5**: In Command Prompt, run the following command to import the SQL file and populate the database:
    ```
-   mysql -u username -p database_name < capstone_database.sql
+   mysql -u username -p capstone < capstone_database.sql
    ```
-   Replace `username` with your MariaDB username, `database_name` with the name of your database, and `capstone_database.sql` with the actual SQL file name.
+   Replace `username` with your MariaDB username.
 - **Step 6**: The data will be successfully populated in the database.
 
 ### Application Startup
@@ -37,7 +37,7 @@ Workout Manager aims to provide a streamlined and efficient solution for individ
 - **Step 1**: Open IntelliJ IDE.
 - **Step 2**: Run the backend server.
 - **Step 3**: Open Visual Studio Code (VS Code).
-- **Step 4**: In the terminal, navigate to the directory where the React project is located.
+- **Step 4**: In the VS Code terminal, navigate to the directory where the React project is located.
 - **Step 5**: Run the following command to install the necessary dependencies: `npm install`
 - **Step 6**: Once the installation is complete, start the frontend development server: `npm start`
 
