@@ -1,5 +1,5 @@
 # Workout Manager
-
+### Introduction
 Workout Manager is a web application that allows users to create, record, and view their daily workout records. It provides a simple and powerful tool to track workouts and monitor progress.
 
 ## Project Description
@@ -19,6 +19,35 @@ Workout Manager aims to provide a streamlined and efficient solution for individ
 - User-Friendly Interface: The application offers an intuitive and straightforward user interface, making it easy for users to navigate and interact with the system.
 - Date Picker: Users can conveniently select dates using a date picker to log or view their workout records.
 
+### Database Setup
+
+- **Step 1**: Copy the provided `capstone_database.sql` file to a convenient location.
+- **Step 2**: Open Command Prompt and start the MariaDB server (ensure that MariaDB 10.6 is installed).
+- **Step 3**: In Command Prompt, navigate to the directory where the MariaDB `bin` folder is located.
+- **Step 4**: Move the `capstone_database.sql` file into the MariaDB `bin` folder.
+- **Step 5**: In Command Prompt, run the following command to import the SQL file and populate the database:
+   ```
+   mysql -u username -p database_name < capstone_database.sql
+   ```
+   Replace `username` with your MariaDB username, `database_name` with the name of your database, and `capstone_database.sql` with the actual SQL file name.
+- **Step 6**: The data will be successfully populated in the database.
+
+### Application Startup
+
+- **Step 1**: Open IntelliJ IDE.
+- **Step 2**: Run the backend server.
+- **Step 3**: Open Visual Studio Code (VS Code).
+- **Step 4**: In the terminal, navigate to the directory where the React project is located.
+- **Step 5**: Run the following command to install the necessary dependencies: `npm install`
+- **Step 6**: Once the installation is complete, start the frontend development server: `npm start`
+
+### Usage
+
+- **Step 1**: Launch the application in your browser at `http://localhost:3000` or `http://localhost:3000/home`.
+- **Step 2**: Use the navigation bar or enter specific URLs to perform actions:
+   - To create a new record: `http://localhost:3000/createRecord`
+   - To view records: `http://localhost:3000/viewRecords`
+
 ## Credits
 
 Workout Manager utilizes the following technologies, libraries, and frameworks:
@@ -27,7 +56,4 @@ Workout Manager utilizes the following technologies, libraries, and frameworks:
 - Spring Boot: A Java framework used for building robust and scalable web applications.
 - MariaDB: An open-source relational database management system used for storing and managing the workout records.
 - Bootstrap: A popular CSS framework that provides pre-styled components and responsive design for a visually appealing user interface.
-- Logo Image: The logo image used in Workout Manager was sourced from [Flaticon](https://www.flaticon.com/free-icons/gym/2). 
-
-
-
+- Logo Image: The logo image used in Workout Manager was sourced from [Flaticon](https://www.flaticon.com/free-icons/gym/2).
